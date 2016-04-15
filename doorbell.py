@@ -6,7 +6,8 @@ import time
 
 while True:
     if button_state():
-        click()
+        camera = click()
         time.sleep(1.0)
         push()
+        camera.wait()
         upload()
