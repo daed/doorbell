@@ -4,8 +4,11 @@ A raspberry pi doorbell app
 To make work:
 
 Set up Raspbian (I used NOOBS)
+
 sudo apt-get update
+
 sudo apt-get install python3 libopencv-dev python-opencv fswebcam python-pycurl libcurl4-openssl-dev libssl-dev
+
 sudo pip3 install pycurl
 
 git clone https://github.com/andreafabrizi/Dropbox-Uploader.git
